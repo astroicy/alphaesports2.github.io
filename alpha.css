@@ -1,0 +1,99 @@
+body {
+    background-color: #1e2327;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2 {
+    color: #dcdb86;
+}
+.main{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    color: #ffff;
+}
+.main h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 420%;
+    color: #dcdb86;
+}
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+.navbar li {
+    float: right;
+    margin-left: 10px;
+}
+.navbar li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+.navbar img {
+    float: left;
+    border-radius: 12px;
+}
+.navbar li a:hover{
+    color: #dcdb86;
+    transition: 0.80s;
+}
+a {
+    text-decoration: none;
+    color: #dcdb86;
+}
+.nav-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.nav-item .nav-link:hover {
+    background-color: #ffb700;
+    color: black;
+}
+
+.brand {
+  text-align: center;
+}
+
+.installcommand {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.note {
+  font-style: italic;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .main{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      color: #ededf0;
+  }
+}
+.pipinstruction {
+    font-family: Consolas,"courier new";
+    color: rgb(67, 220, 20);
+    background-color: #ffb700;
+    padding: 2px;
+    font-size: 100%;
+}
